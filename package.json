@@ -2,16 +2,7 @@
   "name": "rentalkit",
   "version": "0.0.1",
   "description": "RentalKit Template",
-  "keywords": [
-    "template",
-    "responsive",
-    "css",
-    "sass",
-    "html",
-    "front-end",
-    "ui kit",
-    "web"
-  ],
+  "keywords": [ "template", "responsive", "css", "sass", "html", "front-end", "ui kit", "web"],
   "homepage": "https://rentalkit.io/",
   "bugs": {
     "url": "https://github.com/coprocoder/rentalkit/issues"
@@ -32,19 +23,6 @@
     "start": "webpack-dev-server --config webpack.config.js --progress",
     "prepublishOnly": "cross-env NODE_ENV=production webpack --progress --config webpack.config.js"
   },
-  "browserslist": [
-    "> 0.5%",
-    "last 2 major versions",
-    "not dead",
-    "Chrome >= 60",
-    "Firefox >= 60",
-    "not Edge < 79",
-    "Firefox ESR",
-    "iOS >= 10",
-    "Safari >= 10",
-    "Android >= 6",
-    "not Explorer <= 11"
-  ],
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@popperjs/core": "^2.10.1",
@@ -55,7 +33,6 @@
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/preset-env": "^7.15.6",
     "@babel/register": "^7.15.3",
-    "autoprefixer": "^10.3.6",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^9.0.1",

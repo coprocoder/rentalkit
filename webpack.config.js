@@ -103,7 +103,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [".js", ".scss"],
+    extensions: [".js", ".ts", ".scss"],
     modules: ["node_modules"],
     alias: {
       request$: "xhr"

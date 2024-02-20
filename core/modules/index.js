@@ -1,10 +1,7 @@
-const Form = ({children}) => {
-    return (
-        <div style="background: gray">
-            <div style="color: red">TestModule</div>
-            {children}
-        </div>
-    )
-}
+const {Form} = require('./function.js');
+// const {ButtonComponent} = require('./classComp.js');
 
-export { Form };
+module.exports = {
+    Form,
+    // ButtonComponent,
+};
