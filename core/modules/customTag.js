@@ -2,6 +2,10 @@
  * Custom tag. Похоже на ангуляр. Можно не импортировать компоненты, а нахуярить тегов и юзать в любом месте вёрстки.
  * Пример: <rental-form>{children}</rental-form>
  * https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements
+ * https://gomakethings.com/how-to-create-a-web-component-with-vanilla-js/
+ *
+ * Самый рабочий вариант, но мне непривычно. Без импорта компонента на местах, он создаётся сам по глобальной привязке класса к тэгу.
+ * Если норм, оставляем его.
  * */
 class FormElement extends HTMLElement {
     // static observedAttributes = ["size"];
@@ -28,4 +32,7 @@ class FormElement extends HTMLElement {
     }
 }
 
-customElements.define("rental-form", FormElement);
+// Define the new web component
+if ('customElements' in window) {
+    customElements.define("rental-form", FormElement);
+}

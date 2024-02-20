@@ -1,9 +1,12 @@
 {
   "parserOptions": {
-    "ecmaVersion": 2017,
+    "ecmaVersion": 2019,
     "sourceType": "module"
   },
   "env": {
-    "es7": true
-  }
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {}
 }

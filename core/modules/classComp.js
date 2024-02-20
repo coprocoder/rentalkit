@@ -1,7 +1,11 @@
 /**
- * Механизм реакта на ванили
+ * Классовый механизм реакта. Нихуя не работает, но выглядит интересно.
  * https://www.divotion.com/blog/creating-js-components-without-a-framework
  * https://github.com/TomRaaff/tr-utilities-lib/tree/main
+ *
+ * Но он один хуй потом аппендит это в document.querySelector('main')!.append(new Clock().render());;
+ * А нам нужен кастомный и простой usage на местах.
+ * https://github.com/TomRaaff/tr-utilities-lib/blob/b2cde10d49d9d2ab6b19bfa21c0927acb5267f47/tryout/components/components.ts#L4
  */
 
 let id = 0;
